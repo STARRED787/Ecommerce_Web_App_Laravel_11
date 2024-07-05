@@ -10,8 +10,16 @@
 <body>
     <div class="container">
         <nav class="navbar">
-            <li><a href=""></a></li>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
         </nav>
+        <main class="content">
+            @yield('content')
+        </main>
     </div>
 </body>
 
